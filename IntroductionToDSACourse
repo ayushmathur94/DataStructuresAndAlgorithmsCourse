@@ -1,0 +1,26 @@
+What is data structure ?
+What is an algorithm ?
+
+Big-O Notation -
+Big-O Notation is a way of comparing how different algorithms perform in an objective manner that doesn't rely on hardware.
+
+Course Coverage -:
+Data Structures / Advanced Data Structures
+>> Arrays 
+>> List 
+>> Stacks
+>> Queues
+>> Hashtables
+>> Trees 
+>> Heaps
+>> Sets
+
+Algorithms 
+Search algorithms  -->  (1)Linear Search  (2) Binary Search
+Sort algorithms --> Bubble sort , merge sort , quick sort , radix sort.
+Recursion
+
+> Start With Theory
+> Code a simple implementation
+> Look at what's available in the JDK
+
