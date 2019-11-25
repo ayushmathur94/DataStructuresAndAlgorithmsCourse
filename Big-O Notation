@@ -1,0 +1,8 @@
+What is Big-O Notation ?
+Big-O Notation is a way of comparing how different algorithms perform in an objective manner that doesn't rely on hardware.
+
+
+Time complexity -:
+The no. of steps that it takes to execute/run an algorithm is called Time Complexity.
+
+
