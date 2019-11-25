@@ -1,0 +1,31 @@
+What is an Algorithm ?
+
+An algorithm describes the steps you have to perform to accomplish a specific task.
+
+For Example -
+Algo for making tea -
+1. Boil water
+2. Add a teabag to a cup
+3. Pour the boiling water into the cup
+4. Remove the teabag when tea is ready
+5. Add the desired amount of milk to the cup
+6. Add the desired amount of sugar to the cup
+7. Stir the contents of the cup with a spoon
+
+** There can be many algorithms that accomplish the same task
+
+Algorithm and Implementation
+** An algorithm is not an implementation 
+
+An algorithm describes steps you have to perform.
+
+Implementation is the code you write to perform those steps. There can be many implementations of the same algorithm.
+
+>> "There can be many algorithms that accomplish the same task"
+>> "There can be many implementations of the same algorithm"
+
+
+
+
+
+
