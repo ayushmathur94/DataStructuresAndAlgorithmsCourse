@@ -1,1 +1,44 @@
 Which data structure to use for shopping cart ? And why not others (like arrays , map) ?
+
+Array: I wouldn't really do this because you have to know how many items will go in the shopping cart before hand and this will force you to resize/re-initialize the array many times.
+
+**LinkedList (which don't use Array in its implementation): I mostly would go with this especially that it fits with the rest of the requirements you mentioned. 
+
+Hashed Collection: It could be used but not very suitable for this situation given the fact that fast access to the contents of the basket by a certain key element is not required.
+
+
+
+******
+We can use doubly linked list for shopping cart item list.
+At the time of user log out we can persist the data in database against the user. 
+Basic dictionary operations(add , remove , search ) should be implemented . It would be nice to provide sorting also on the basis of various factors such as name of the item , price of the item. Most of the sites now have coupons system.Each item can have an action of moving it to wishlist too. So apply coupon options will be provided. The shopping cart window will have button 'Checkout' which will redirect to the transaction page. Each user will have it's own shopping cart object and it's data will be initialized from the database.
+
+
+
+
+
+ShoppingCart
+	List<ItemOrder> items;
+	add(ItemOrder)
+	remove(ItemOrder)
+	applyCoupan(Coupan)
+	getTotal()	
+
+ItemOrder
+	Item item;
+	int quantity
+	double price;
+	getPrice()
+	getQuantity()
+	changeQuantity();
+
+Enum ItemTypes\ or Category
+
+Item
+	String name;
+	ItemTypes type;
+	double price;
+	String itemID;
+	getName()
+	getItemID();
+	getItemPrice();
